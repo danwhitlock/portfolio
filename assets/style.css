@@ -1,4 +1,47 @@
+/* UNIVERSAL */
+
 body {
     margin: 0;
     padding: 0;
+    background-color: #f2f3f5;
 }
+
+:root {
+    --primary: #3172f5;
+    --secondary: #f5a331;
+    --tertiary: #31a3f5;
+}
+
+/* HEADER & NAV */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--tertiary);
+}
+
+header img {
+    height: 75px;
+    width: 75px;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav ul li {
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* HERO */
+
+
+/* MAIN */
+
+
+/* WORK */
+
+
+/* CONTACT */
