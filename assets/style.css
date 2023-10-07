@@ -104,22 +104,43 @@ nav ul li {
 .project-one {
     grid-column: 1/3;
     border: 1px solid black;
+    background-image: url(./img/project-one.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
 }
 
 .project-two {
     border: 1px solid black;
+    background-image: url(./img/project-two.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .project-three {
     border: 1px solid black;
+    background-image: url(./img/project-three.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .project-four {
     border: 1px solid black;
+    background-image: url(./img/project-four.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .project-five {
     border: 1px solid black;
+    background-image: url(./img/project-five.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* CONTACT */
