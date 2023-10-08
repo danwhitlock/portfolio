@@ -1,3 +1,5 @@
+**Description**
+
 This is a portfolio website I have built using HTML and CSS.  It has been designed to meet the following acceptance criteria - 
 
 
@@ -12,10 +14,13 @@ I intend for this to be starting point to work from, which I will develop over t
 
 The finished page looks like this - 
 
-![A screenshot of the completed page](./assets/img/Screen%20Recording%202023-10-08%20at%2018.33.55.mov)
+![A screenshot of the finished page part one](./assets/img/screenshot-a.png)
+![A screenshot of the finished page part two](./assets/img/screenshot-b.png)
 
 The finished page has been deployed to GitHub Pages here - 
 
 https://danwhitlock.github.io/portfolio/
+
+**Credits**
 
 Hero Image by <a href="https://pixabay.com/users/medienservice-1888061/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2917553">Nicole Pankalla</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2917553">Pixabay</a>
