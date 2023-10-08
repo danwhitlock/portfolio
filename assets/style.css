@@ -17,7 +17,7 @@ body {
 header {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: var(--tertiary);
 }
@@ -25,8 +25,11 @@ header {
 header img {
     height: 75px;
     width: 75px;
-    padding: 10px;
     margin: 10px;
+}
+
+nav ul {
+    padding: 0;
 }
 
 nav ul li {
@@ -54,6 +57,7 @@ nav ul li {
     left : 25%;
 	top: 25%;
     width: 50%;
+    border-radius: 5px;
 }
 
 /* MAIN */
@@ -238,6 +242,9 @@ nav ul li {
     background-color: var(--primary);
 }
 
+.projects {
+    border-radius: 5px;
+}
 
 /* CONTACT */
 
