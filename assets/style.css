@@ -37,6 +37,12 @@ nav ul li {
     text-decoration: none;
     padding: 10px;
     margin: 10px;
+    color: #fff;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* HERO */
@@ -240,6 +246,11 @@ nav ul li {
 
 .projects h3 {
     background-color: var(--primary);
+}
+
+.projects h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .projects {
