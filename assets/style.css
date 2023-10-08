@@ -38,6 +38,7 @@ nav ul li {
     padding: 10px;
     margin: 10px;
     color: #fff;
+    font-size: 1.5rem;
 }
 
 nav ul li:hover {
@@ -73,11 +74,11 @@ nav ul li:hover {
     width: 100%;
     grid-template-columns: 1fr 4fr;
     column-gap: 20px;
-    row-gap: 50px;
+    row-gap: 100px;
 }
 
 .about-me {
-    margin-top: 50px;
+    margin-top: 100px;
     border-right: 1px solid var(--primary);
     color: var(--secondary);
     text-align: end;
@@ -87,7 +88,7 @@ nav ul li:hover {
 
 .ab-me-content {
     grid-column-start: 2;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-right: 200px;
     padding-left: 20px;
     color: var(--primary);
@@ -260,12 +261,12 @@ nav ul li:hover {
 /* CONTACT */
 
 .contact-hdr {
-    margin-top: 20px;
     border-right: 1px solid var(--primary);
     color: var(--secondary);
     text-align: end;
     padding-right: 30px;
     grid-column-start: 1;
+    margin-bottom: 20px;
 }
 
 .contact-content {
@@ -274,4 +275,18 @@ nav ul li:hover {
     align-items: center;
     justify-items: center;
     margin-right: 200px;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    margin: 0;
+    background-color: var(--primary);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.contact-content p:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
