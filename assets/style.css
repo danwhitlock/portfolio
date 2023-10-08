@@ -117,9 +117,10 @@ main {
     padding-left: 20px;
     color: var(--tertiary);
 }
+
 /* Work */
 
-.work-content {
+#work-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -132,6 +133,7 @@ main {
     border: 10px solid var(--tertiary);
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
 }
 
 .project-images {
@@ -139,6 +141,24 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     height: 400px;
+}
+
+.project-labels {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    color: var(--quaternary);   
+    background-color: var(--tertiary);
+}
+
+.project-labels:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.project-labels h3 {
+    margin: 0;
+    background-color: var(--tertiary);
 }
 
 #project-one {
@@ -149,84 +169,20 @@ main {
     background-image: url(./img/project-one.png);
 }
 
-.proj-one-label h3 {
-    margin: 0;
-    padding: 15px;
-    text-align: center;
-    color: var(--quaternary);
-}
-
-.proj-two-image {
+#proj-two-image {
     background-image: url(./img/project-two.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
 }
 
-.proj-two-label h3 {
-    margin: 0;
-    padding: 15px;
-    text-align: center;
-    color: var(--quaternary);
-}
-
-.proj-three-image {
+#proj-three-image {
     background-image: url(./img/project-three.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
 }
 
-.proj-three-label h3 {
-    margin: 0;
-    padding: 15px;
-    text-align: center;
-    color: var(--quaternary);
-}
-
-.proj-four-image {
+#proj-four-image {
     background-image: url(./img/project-four.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
 }
 
-.proj-four-label h3 {
-    margin: 0;
-    padding: 15px;
-    text-align: center;
-    color: var(--quaternary);
-}
-
-.proj-five-image {
+#proj-five-image {
     background-image: url(./img/project-five.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
-}
-
-.proj-five-label h3 {
-    margin: 0;
-    padding: 15px;
-    text-align: center;
-    color: var(--quaternary);
-}
-
-.projects h3 {
-    background-color: var(--tertiary);
-}
-
-.projects h3:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.projects {
-    border-radius: 5px;
 }
 
 /* Contact */
