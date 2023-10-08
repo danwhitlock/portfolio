@@ -13,13 +13,18 @@ body {
     --tertiary: #31a3f5;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* HEADER & NAV */
 header {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--tertiary);
+    background-color: var(--primary);
 }
 
 header img {
@@ -49,7 +54,7 @@ nav ul li:hover {
 /* HERO */
 
 .hero {
-    height: 350px;
+    height: 250px;
     width: 100%;
     background-image: url(./img/texture-2917553_1280.jpg);
     background-size: cover;
@@ -63,7 +68,7 @@ nav ul li:hover {
     text-align: center;
     position: absolute;
     left : 25%;
-	top: 30%;
+	top: 20%;
     width: 50%;
     border-radius: 5px;
 }
@@ -223,33 +228,6 @@ nav ul li:hover {
     text-align: center;
     color: #fff;
 }
-
-/* .project-three {
-    border: 5px solid var(--primary);
-    background-image: url(./img/project-three.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-} */
-
-/* .project-four {
-    border: 5px solid var(--primary);
-    background-image: url(./img/project-four.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-} */
-/* 
-.project-five {
-    border: 5px solid var(--primary);
-    background-image: url(./img/project-five.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-} */
 
 .projects h3 {
     background-color: var(--primary);
